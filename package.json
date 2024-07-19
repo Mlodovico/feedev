@@ -13,6 +13,7 @@
     "@react-three/fiber": "^8.16.8",
     "@react-three/rapier": "^1.4.0",
     "clsx": "^2.1.1",
+    "cobe": "^0.6.3",
     "formik": "^2.4.6",
     "leva": "^0.9.35",
     "meshline": "^3.3.1",
