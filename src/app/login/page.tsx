@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { useFormik } from "formik";
 import * as yup from "yup";
+import { IoMdArrowRoundBack } from "react-icons/io";
 
 import Tag3d from "../../components/tag";
 
@@ -29,7 +30,7 @@ export default function Login() {
     },
     validationSchema: schema,
     onSubmit: (values) => {
-        handleLogIn(values);
+      handleLogIn(values);
     },
   });
 
@@ -45,8 +46,13 @@ export default function Login() {
       <div className=" relative top-0 left-0 flex items-center justify-center h-svh w-svw">
         <form
           onSubmit={formik.handleSubmit}
-          className="flex flex-col items-center justify-center bg-gray-900 p-20 rounded-lg"
+          className="flex flex-col items-center justify-center bg-gray-900 p-10 rounded-lg"
         >
+          <div className="w-full mb-12">
+            <a href="/">
+              <IoMdArrowRoundBack size={28} />
+            </a>
+          </div>
           <div className="flex mb-8">
             <p className="text-3xl font-bold">Logon in Feedev</p>
           </div>
@@ -61,7 +67,7 @@ export default function Login() {
                 value={formik.values.email}
                 onBlur={formik.handleBlur}
               />
-               {formik.touched.email && formik.errors.email ? (
+              {formik.touched.email && formik.errors.email ? (
                 <div className="text-red-500">{formik.errors.email}</div>
               ) : null}
             </div>

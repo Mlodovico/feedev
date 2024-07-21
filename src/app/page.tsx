@@ -12,7 +12,7 @@ export default function Home() {
           <a href="/login" className="px-4 py-2 mx-2 bg-gray-800 rounded-lg">
             Login
           </a>
-          <a href="" className="px-4 py-2 mx-2 bg-gray-800 rounded-lg">
+          <a href="/register" className="px-4 py-2 mx-2 bg-gray-800 rounded-lg">
             Register
           </a>
           <a href="/about" className="px-4 py-2 mx-2 bg-gray-800 rounded-lg">
