@@ -9,18 +9,28 @@ export default function Home() {
       </h1>
       <div className="bg-gray-950 rounded-2xl p-6 mt-4 w-full">
         <div className="flex justify-center lg:justify-start">
-          <a href="" className="px-4 py-2 mx-2 bg-gray-800 rounded-lg">
+          <a href="/login" className="px-4 py-2 mx-2 bg-gray-800 rounded-lg">
             Login
           </a>
           <a href="" className="px-4 py-2 mx-2 bg-gray-800 rounded-lg">
             Register
           </a>
-          <a href="" className="px-4 py-2 mx-2 bg-gray-800 rounded-lg">
+          <a href="/about" className="px-4 py-2 mx-2 bg-gray-800 rounded-lg">
             About
           </a>
         </div>
       </div>
       <Cobe />
+      <div className="bg-gray-950 rounded-2xl p-6 mt-4">
+        <p>
+          the premier social networking app designed exclusively for developers!
+          DevConnect is a fully integrated and user-friendly platform where you
+          can connect, collaborate, and grow with fellow developers from around
+          the world. Whether you are a seasoned professional or just starting
+          your coding journey, DevConnect offers a seamless experience tailored
+          to your needs.
+        </p>
+      </div>
     </main>
   );
 }
