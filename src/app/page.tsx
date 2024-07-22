@@ -1,7 +1,6 @@
-import { Cobe } from "@/components/cobe";
-import Image from "next/image";
 
 export default function Home() {
+
   return (
     <main className="font-mono flex justify-center items-center min-h-screen flex-col p-24 lg:w-3/5">
       <h1 className="text-3xl font-bold text-center">
@@ -20,7 +19,6 @@ export default function Home() {
           </a>
         </div>
       </div>
-      <Cobe />
       <div className="bg-gray-950 rounded-2xl p-6 mt-4">
         <p>
           the premier social networking app designed exclusively for developers!
