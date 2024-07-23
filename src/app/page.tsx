@@ -29,7 +29,7 @@ export default function Home() {
   ];
 
   return (
-    <main className="font-mono flex justify-center min-h-screen flex-col p-24 lg:w-3/5">
+    <main className="font-mono flex justify-center items-center min-h-screen flex-col p-24 lg:w-3/5">
       <div className="relative w-full bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
         <FloatingNav navItems={navItems} />
 
@@ -55,7 +55,7 @@ export default function Home() {
         </div>
       </div>
  
-      <div className="bg-gray-950 rounded-2xl p-6 mt-4">
+      <div className="w-full bg-zinc-50 dark:bg-zinc-900 rounded-2xl p-6 mt-4">
         <p>
           the premier social networking app designed exclusively for developers!
           DevConnect is a fully integrated and user-friendly platform where you
