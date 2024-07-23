@@ -58,7 +58,7 @@ export default function Login() {
         <div className="relative top-0 left-0 flex items-center justify-center h-svh w-svw">
           <form
             onSubmit={formik.handleSubmit}
-            className="flex flex-col items-center justify-center w-full bg-zinc-900 text-white p-10 rounded-lg lg:w-1/5 md:w-4/6 sm:w-6/6"
+            className="flex flex-col items-center justify-center bg-zinc-900 text-white p-10 rounded-lg w-2/5 2xl:w-1/5 xl:w-3/5 md:w-3/5 sm:w-5/6"
           >
             <div className="w-full mb-12">
               <a href="/">
@@ -89,7 +89,7 @@ export default function Login() {
                 className="bg-gradient-to-br relative group/btn from-black dark:from-zinc-800 dark:to-zinc-600 to-neutral-600 block dark:bg-zinc-800 w-full text-white rounded-md h-10 font-medium shadow-[0px_1px_0px_0px_#ffffff40_inset,0px_-1px_0px_0px_#ffffff40_inset] dark:shadow-[0px_1px_0px_0px_var(--zinc-800)_inset,0px_-1px_0px_0px_var(--zinc-800)_inset]"
                 type="submit"
               >
-                Login
+                Log In
                 <BottomGradient />
               </button>
             </div>
