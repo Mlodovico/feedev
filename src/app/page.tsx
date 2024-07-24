@@ -29,11 +29,11 @@ export default function Home() {
   ];
 
   return (
-    <main className="font-mono flex justify-center items-center min-h-screen flex-col p-24 lg:w-3/5">
-      <div className="relative w-full bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
+    <main className="w-full font-mono flex items-center align-middle min-h-screen flex-col p-24 mt-10">
+      <div className="bg-black flex flex-col items-center justify-center w-1/5">
         <FloatingNav navItems={navItems} />
 
-        <h1 className="md:text-7xl text-3xl lg:text-9xl font-bold text-center text-white relative z-20">
+        <h1 className="md:text-7xl text-3xl lg:text-9xl font-bold text-center text-white relative">
           Feedev
         </h1>
         <div className="w-[40rem] relative">
