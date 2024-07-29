@@ -1,0 +1,72 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "johndoe",
+      "name": "John",
+      "lastname": "Doe",
+      "email": "bL7nL@example.com",
+      "password": "password123",
+      "document": "123456789-12",
+      "birthdate": "1990-01-01",
+      "isActive": true
+    },
+    {
+      "id": 2,
+      "username": "janedoe",
+      "name": "Jane",
+      "lastname": "Doe",
+      "email": "bL7nL@example.com",
+      "password": "password123",
+      "document": "123456789-12",
+      "birthdate": "1990-01-01",
+      "isActive": true
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "How to be more creative on coding functions",
+      "content": "Content 1",
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "title": "Post 2",
+      "content": "Content 2",
+      "userId": 2
+    },
+    {
+      "id": 3,
+      "title": "Post 3",
+      "content": "Content 3",
+      "userId": 1
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "content": "Este é um comentário de teste. Estou muito satisfeito com a qualidade do serviço prestado. A equipe foi extremamente profissional e atenciosa, respondendo a todas as minhas perguntas de maneira rápida e eficiente. Eu recomendo fortemente seus serviços a todos os meus amigos e familiares. Continuem com o excelente trabalho!",
+      "userId": 1,
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "content": "Outro comentário para o mesmo post. Eu tive uma experiência muito positiva com este produto. Desde o momento da compra até a entrega, tudo correu perfeitamente. A qualidade do produto é excelente e superou minhas expectativas. Estou muito feliz com a minha compra e certamente comprarei novamente no futuro.",
+      "userId": 2,
+      "postId": 1
+    },
+    {
+      "id": 3,
+      "content": "Comentário em um post diferente. Gostaria de expressar minha gratidão pelo excelente atendimento ao cliente que recebi. Tive algumas dúvidas sobre o produto e a equipe de suporte foi extremamente prestativa e paciente. Eles me ajudaram a resolver todas as minhas dúvidas e fizeram o processo de compra muito mais fácil. Muito obrigado!",
+      "userId": 2,
+      "postId": 2
+    },
+    {
+      "id": 4,
+      "content": "Eu gostaria de compartilhar minha experiência com este serviço. Fiquei impressionado com a rapidez e eficiência com que minha solicitação foi atendida. A equipe é altamente profissional e demonstrou um grande conhecimento do produto. Estou muito satisfeito com o resultado final e certamente utilizarei seus serviços novamente no futuro.",
+      "userId": 1,
+      "postId": 2
+    }
+  ]
+}
