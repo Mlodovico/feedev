@@ -6,6 +6,7 @@ import {
   useScroll,
   useMotionValueEvent,
 } from "framer-motion";
+import { HoverBorderGradient } from "./hover-border-gradient";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
 
@@ -53,10 +54,13 @@ export const FloatingNav = ({
             <span className="hidden sm:block text-sm">{navItem.name}</span>
           </Link>
         ))}
-        <button className="border text-sm font-medium relative border-neutral-200 dark:border-white/[0.2] text-black dark:text-white px-4 py-2 rounded-full">
-          <a href="/login">Login</a>
-          <span className="absolute inset-x-0 w-1/2 mx-auto -bottom-px bg-gradient-to-r from-transparent via-blue-500 to-transparent  h-px" />
-        </button>
+        <HoverBorderGradient
+          containerClassName="rounded-full"
+          as="button"
+          className="dark:bg-black bg-white text-black dark:text-white flex items-center space-x-2"
+        >
+          <span>LogIn</span>
+        </HoverBorderGradient>
       </motion.div>
     </AnimatePresence>
   );
