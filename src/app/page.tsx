@@ -29,7 +29,7 @@ export default function Home() {
   ];
 
   return (
-    <main className="w-full font-mono flex items-center align-middle min-h-screen flex-col p-24 mt-10">
+    <main className="flex flex-col w-full max-w-7xl mx-auto font-mono items-center align-middle min-h-screen p-24 mt-10">
       <div className="bg-black flex flex-col items-center justify-center w-1/5">
         <FloatingNav navItems={navItems} />
 
