@@ -55,7 +55,7 @@ export default function Home() {
         </div>
       </div>
  
-      <div className="w-full bg-zinc-50 dark:bg-zinc-900 rounded-2xl p-6 mt-4">
+      <div className="w-full bg-zinc-50 rounded-2xl p-6 mt-4">
         <p>
           the premier social networking app designed exclusively for developers!
           DevConnect is a fully integrated and user-friendly platform where you
